@@ -6,7 +6,6 @@ export default function Head () {
             <title>Fuel Tracker</title>
             <meta name="description" content="Fuel Tracker App" />
             <meta key="viewport" content="width=device-width, initial-scale=1" />
-            <link href="/logo.ico" rel="icon" />
         </NextHead>
     );
 };

@@ -5,15 +5,15 @@ import { FaWhatsapp, FaTelegramPlane } from "react-icons/fa";
 export default function Footer() {
     return (
         <footer className="font-main flex justify-center w-full bg-[#362D6C]">
-            <section className="flex w-full py-5 px-3 justify-between items-center">
-                <div className="w-[50px] h-[40px]">
+            <section className="flex w-full p-4 justify-between items-center">
+                <div className="w-[30px] h-[30px]">
                     <Image
                         width={0}
                         height={0}
-                        src="/images/logo.png"
+                        src="/logo.png"
                         alt="Logo"
                         sizes="100vw"
-                        className=" w-full h-auto"
+                        className=" w-full h-auto rounded-full"
                     />
                 </div>
                 <Link href={"https://github.com/Benaun"} target="_blank">
